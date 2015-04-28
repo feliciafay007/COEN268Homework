@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Artists List</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_uninstall">Uninstall</string>
+    <string name="action_information">Information</string>
+    <string name="action_favourite">Favourite</string>
+    <string name="title_activity_show_detail">Artists Detail</string>
+    <string-array name="artist_names">
+        <item>Beyonce</item>
+        <item>Christina</item>
+        <item>Joseph</item>
+        <item>Kateperry</item>
+        <item>LadyGaga</item>
+        <item>Pink</item>
+        <item>Taylorswift</item>
+    </string-array>
+    <string-array name="artist_details">
+        <item>Beyonce is an American singer, songwriter, and actress. She performed in various singing and dancing competitions as a child, and rose to fame in the late 1990s as lead singer of R and B girl-group Destiny\'s Child. Managed by her father Mathew Knowles, the group became one of the world\'s best-selling girl groups of all time. Their hiatus saw the release of Beyonce\'s debut album, Dangerously in Love (2003), which established her as a solo artist worldwide; it sold 11 million copies, earned five Grammy Awards and featured the Billboard Hot 100 number-one singles \"Crazy in Love\" and \"Baby Boy\".
+              Following the disbandment of Destiny\'s Child in June 2005, she released her second solo album, \'Day (2006), which contained hits \”Irreplaceable\", and \"Beautiful Liar\".</item>
+        <item>Christina Aguilera was born in Staten Island, New York on December 18, 1980, the daughter of Shelly Loraine, a musician, and Fausto Xavier Aguilera, a United States Army soldier. Her father is Ecuadorian, while her mother has German, Irish, Welsh, and Dutch ancestry.Her family moved frequently because of her father\'s military service, and lived in places including New Jersey, Texas, New York, and Japan. Aguilera and her mother alleged that her father was physically and emotionally abusive,claims which he denied. Aguilera used music as a form of escape from her turbulent household.Following her parents\' divorce when she was six years old, Aguilera, her younger sister Rachel, and her mother (who later remarried) moved into her grandmother\'s home in the Pittsburgh suburb of Rochester, Pennsylvania.After several years of being estranged, Aguilera expressed interest in reconciling with her father in 2012.</item>
+        <item>Joseph Leonard Gordon Levitt is an American actor, singer, and filmmaker. As a child star, he appeared in the films A River Runs Through It, Angels in the Outfield, and 10 Things I Hate About You, and as Tommy Solomon in the TV series 3rd Rock from the Sun. He took a break from acting to study at Columbia University, but dropped out in 2004 to pursue acting again. He has since starred in 500 Days of Summer, Inception, Hasher, Premium Rush, The Dark Knight Rises, Brick, Looper, The Lookout, Manic, Lincoln, Mysterious Skin, and G.I. Joe: The Rise of Cobra. He also founded the online production company hitRECord in 2004 and has hosted his own TV series, HitRecord on TV, since January 2014. In 2013, Gordon Levitt made his feature film directing and screenwriting debut with Don Jon, a comedy film in which he also stars. He previously directed and edited two short films, both of which were released in 2010: Morgan M. Morgansen\'s Date with Destiny and Morgan and Destiny\'s Eleventeenth Date: The Zeppelin Zoo.</item>
+        <item>Katy started taking singing lessons when she was only 9 years old and learned to play the guitar at age 13. Katy, also known as Katheryn Hudson, first started performing at her parents church, her mom and dad are pastors. Katy wasn\'t aloud to listen to any other music but Gospel music. She also wasn\'t aloud to watch MTV or VH1. Katy first heard a song off of a radio when she was at a sleep over and was inspired by Freddie Mercury</item>
+        <item>Lady Gaga,1986, March 28. United States female singer and who works, five Grammy Award winner, was born in the United States State of New York a came from generous family, parents Italy-American, is the same as Italy of American pop singer Madonna a distant relative of the older generation.Lady Gaga has always been in its wild, different from the ordinary men features dress is known, her provocative fashion styles of praise, but also have an impact on many celebrities.</item>
+        <item>Noted for having a strong signature voice and a literally acrobatic ability on stage,Pink has received mostly positive reception from music critics.She has sold over 130 million records worldwide. She has sold over 16 million albums in the United States. Her career accolades include three Grammy Awards, a Brit Award, and six MTV Video Music Awards. In 2009, Billboard recognized Pink as the Pop Songs Artist of the Decade.</item>
+        <item>Taylor Alison Swift was born to finance banker parents in suburban Pennsylvania , the girl literally grew up on a Christmas tree farm, which should come as a surprise to no one, I feel, on December 13th 1989. This makes her 23 today, and two years and a couple weeks change older than I am. Taylor was only sixteen when her eponymous debut album was released in 2006. I was a sophomore in high school. I was a very weird and serious fourteen </item>
+    </string-array>
+    <string-array name="concert_details">
+        <item>Beyonce,MetLife Stadium,888-1111</item>
+        <item>Beyonce,Glory Stadium,888-2222</item>
+        <item>Christina,HP Pavillion,888-3333</item>
+        <item>Christina,LSU Stadium,888-4444</item>
+        <item>Christina,Ford Field,888-5555</item>
+        <item>Joseph,HP Pavillion,888-6666</item>
+        <item>Kate Perry,Ford Field,888-7771</item>
+        <item>Kate Perry,LSU Stadium,888-7772</item>
+        <item>Layd Gaga,LSU Stadium,888-7773</item>
+        <item>Pink,MetLife Stadium,888-7774</item>
+        <item>Taylor Swift,Staples Center,888-7775</item>
+        <item>Taylor Swift,Ford Field,888-7776</item>
+        <item>Taylor Swift,MGM Grounds,888-7777</item>
+    </string-array>
+    <string name="title_activity_concert">Concert Activities</string>
+    <string name="title_activity_show_favourite">Favourite Artists</string>
+    <string name="hello_world">Hello World</string>
+</resources>

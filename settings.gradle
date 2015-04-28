@@ -1,0 +1,1 @@
+include ':app', 'HW2ArtistManager', 'HW1LoanCalculator'

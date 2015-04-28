@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="android.scu.edu.customlistview.ShowDetail">
+    <item android:id="@+id/action_information3" android:title="@string/action_information"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_favourite3" android:title="@string/action_favourite"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_uninstall3" android:title="@string/action_uninstall"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

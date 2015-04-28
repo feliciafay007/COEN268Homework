@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="android.scu.edu.customlistview.ConcertActivity">
+    <item android:id="@+id/action_information2" android:title="@string/action_information"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_favourite2" android:title="@string/action_favourite"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_uninstall2" android:title="@string/action_uninstall"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
