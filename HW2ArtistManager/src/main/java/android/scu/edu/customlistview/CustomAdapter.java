@@ -30,8 +30,13 @@ public class CustomAdapter extends ArrayAdapter<Person> {
         TextView textView = (TextView) row.findViewById(R.id.rowText);
         textView.setText(persons.get(position).getName());
         ImageView imageView = (ImageView) row.findViewById(R.id.rowImage);
-        // NOTE:
-        // 1. used setImageResource(R.id.XXX) to set image.
+        /**
+         * 1. used setImageResource(R.id.XXX) to set image.
+         * 2. setImageResource (int resId)
+         * does Bitmap reading and decoding on the UI thread, which can cause a latency hiccup.
+         * If that's a concern, consider using setImageDrawable(android.graphics.drawable.
+         * Drawable) or setImageBitmap(android.graphics.Bitmap) and BitmapFactory instead.
+         */
         imageView.setImageResource(persons.get(position).getResIDThumbnail());
         return row;
     }
