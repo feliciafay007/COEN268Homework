@@ -1,1 +1,1 @@
-include ':app', ':hw4mapmarker', 'HW2ArtistManager', 'HW1LoanCalculator', ':HW3BasketballSensor'
+include ':app', ':hw4mapmarker', ':hw4mapmarker2', 'HW2ArtistManager', 'HW1LoanCalculator', ':HW3BasketballSensor'

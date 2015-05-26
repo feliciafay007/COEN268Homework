@@ -30,6 +30,7 @@ public class LocationsDB extends FragmentActivity implements android.app.LoaderM
         map.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
             @Override
             public void onMapClick(LatLng latLng) {
+                
                 map.addMarker(new MarkerOptions().position(latLng));
                 ContentValues values = new ContentValues();
                 values.put(LocationsContentProvider.LATITUDE, Double.toString(latLng.latitude));

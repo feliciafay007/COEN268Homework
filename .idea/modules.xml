@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/HW3BasketballSensor/HW3BasketballSensor.iml" filepath="$PROJECT_DIR$/HW3BasketballSensor/HW3BasketballSensor.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/hw4mapmarker/hw4mapmarker.iml" filepath="$PROJECT_DIR$/hw4mapmarker/hw4mapmarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw4mapmarker2/hw4mapmarker2.iml" filepath="$PROJECT_DIR$/hw4mapmarker2/hw4mapmarker2.iml" />
     </modules>
   </component>
 </project>
