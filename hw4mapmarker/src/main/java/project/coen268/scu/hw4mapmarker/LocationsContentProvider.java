@@ -15,7 +15,12 @@ import android.text.TextUtils;
 import android.util.Log;
 
 public class LocationsContentProvider extends ContentProvider {
-
+    // NOTE ： If you want to name a  content provider,
+    // use packagename + "provider", to uniquely name a provider and
+    // the suffix "provider" is needed and also need in the manifest
+    // <provider android:name="LocationsContentProvider"
+    // android:authorities="project.coen268.scu.hw4mapmarker.provider"
+    // android:permission="project.coen268.scu.hw4mapmarker.permission.ACCESS_CONTENT_PROVIDER"/>
     static final String PROVIDER_NAME = "project.coen268.scu.hw4mapmarker.provider";
     static final String URL = "content://" + PROVIDER_NAME + "/positions";
     static final Uri CONTENT_URI = Uri.parse(URL);
