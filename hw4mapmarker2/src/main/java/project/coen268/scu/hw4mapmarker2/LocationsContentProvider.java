@@ -14,13 +14,8 @@ import android.net.Uri;
 
 /** A custom Content Provider to do the database operations */
 public class LocationsContentProvider extends ContentProvider{
-
-    public static final String PROVIDER_NAME = "coen268.homework4.mapmarker2";
-
-    /** A uri to do operations on locations table. A content provider is identified by its uri */
+    public static final String PROVIDER_NAME = "project.coen268.scu.hw4mapmarker2.provider";
     public static final Uri CONTENT_URI = Uri.parse("content://" + PROVIDER_NAME + "/locations" );
-
-    /** Constant to identify the requested operation */
     private static final int LOCATIONS = 1;
 
     private static final UriMatcher uriMatcher ;
@@ -30,17 +25,14 @@ public class LocationsContentProvider extends ContentProvider{
         uriMatcher.addURI(PROVIDER_NAME, "locations", LOCATIONS);
     }
 
-    /** This content provider does the database operations by this object */
     LocationsDB mLocationsDB;
 
-    /** A callback method which is invoked when the content provider is starting up */
     @Override
     public boolean onCreate() {
         mLocationsDB = new LocationsDB(getContext());
         return true;
     }
 
-    /** A callback method which is invoked when insert operation is requested on this content provider */
     @Override
     public Uri insert(Uri uri, ContentValues values) {
         long rowID = mLocationsDB.insert(values);
@@ -49,7 +41,7 @@ public class LocationsContentProvider extends ContentProvider{
             _uri = ContentUris.withAppendedId(CONTENT_URI, rowID);
         }else {
             try {
-                throw new SQLException("Failed to insert : " + uri);
+                throw new SQLException("insert failure: " + uri);
             } catch (SQLException e) {
                 e.printStackTrace();
             }
@@ -60,19 +52,18 @@ public class LocationsContentProvider extends ContentProvider{
     @Override
     public int update(Uri uri, ContentValues values, String selection,
                       String[] selectionArgs) {
-        // TODO Auto-generated method stub
+
         return 0;
     }
 
-    /** A callback method which is invoked when delete operation is requested on this content provider */
+
     @Override
     public int delete(Uri uri, String selection, String[] selectionArgs) {
         int cnt = 0;
-        cnt = mLocationsDB.del();
+        cnt = mLocationsDB.delete();
         return cnt;
     }
 
-    /** A callback method which is invoked by default content uri */
     @Override
     public Cursor query(Uri uri, String[] projection, String selection, String[] selectionArgs, String sortOrder) {
 
@@ -86,4 +77,5 @@ public class LocationsContentProvider extends ContentProvider{
     public String getType(Uri uri) {
         return null;
     }
+
 }

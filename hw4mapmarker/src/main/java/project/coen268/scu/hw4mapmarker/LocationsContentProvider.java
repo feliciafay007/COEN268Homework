@@ -16,7 +16,7 @@ import android.util.Log;
 
 public class LocationsContentProvider extends ContentProvider {
 
-    static final String PROVIDER_NAME = "coen268.homework4.provider";
+    static final String PROVIDER_NAME = "project.coen268.scu.hw4mapmarker.provider";
     static final String URL = "content://" + PROVIDER_NAME + "/positions";
     static final Uri CONTENT_URI = Uri.parse(URL);
     static final String _ID = "_id";

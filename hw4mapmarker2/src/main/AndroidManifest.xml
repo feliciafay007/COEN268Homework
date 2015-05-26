@@ -6,11 +6,11 @@
     <permission android:name="project.coen268.scu.hw4mapmarker2.permission.ACCESS_CONTENT_PROVIDER" android:protectionLevel="normal"/>
     <uses-permission android:name="project.coen268.scu.hw4mapmarker2.permission.MAPS_RECEIVE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
     <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
 
     <application
@@ -31,11 +31,11 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCyBKhczHgzEfL2UEGxvKMp3S7b6AyvUB0" />
+            android:value="AIzaSyCr-7cvfqKGGCp7PlVXb8pKXRVRBxAn3aY" />
         <provider
             android:name="LocationsContentProvider"
-            android:authorities="coen268.homework4.mapmarker2"
-            android:exported="false" />
+            android:authorities="project.coen268.scu.hw4mapmarker2.provider"
+            android:permission="project.coen268.scu.hw4mapmarker2.permission.ACCESS_CONTENT_PROVIDER"/>
     </application>
 
 </manifest>

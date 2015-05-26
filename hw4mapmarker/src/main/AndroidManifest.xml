@@ -32,7 +32,7 @@
         <meta-data android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyDr3F_eKwEHRf5SJCxcvrfMwlrOPE24HGk"/>
         <provider android:name="LocationsContentProvider"
-            android:authorities="coen268.homework4.provider"
+            android:authorities="project.coen268.scu.hw4mapmarker.provider"
             android:permission="project.coen268.scu.hw4mapmarker.permission.ACCESS_CONTENT_PROVIDER"/>
     </application>
 
